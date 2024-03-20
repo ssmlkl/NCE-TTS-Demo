@@ -22,8 +22,8 @@ We conducted extensive experiments on a multi-speaker English emotional speech d
 The objective and subjective results demonstrate that the proposed NCE-TTS can synthesize emotionally rich speech while preserving the target speaker's voice in various noisy scenarios, with a significant improvement compared to all advanced baselines.
 
 ## Overview
-The overview of UniAudio as following picture shows.
-![The overview of UniAudio](fig/fig2-v3.pdf)
+The overview of NCE-TTS as following picture shows.
+![The overview of UniAudio](fig/fig2-v3.png)
 In the following, we will show some generated samples by our proposed method. 
 
 <style>
