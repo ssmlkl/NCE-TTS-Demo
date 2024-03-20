@@ -32,7 +32,7 @@ The objective and subjective results demonstrate that the proposed NCE-TTS can s
 
 ## Overview
 The overview of NCE-TTS as the following picture shows.
-<img class="pic" src="fig/fig2-v3.png" alt="The overview of NCE-TTS" width="300" height="200">
+<div><img class="pic" src="fig/fig2-v3.png" alt="The overview of NCE-TTS" width="300" height="200"></div>
 In the following, we will show some generated samples by our proposed method. 
 
 <style>
