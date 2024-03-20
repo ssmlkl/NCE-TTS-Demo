@@ -4,6 +4,8 @@
     margin-right: auto;
     margin-left: auto;
 }
+.pic {
+}
 </style>
 # <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint1 </center>
 
@@ -29,8 +31,8 @@ We conducted extensive experiments on a multi-speaker English emotional speech d
 The objective and subjective results demonstrate that the proposed NCE-TTS can synthesize emotionally rich speech while preserving the target speaker's voice in various noisy scenarios, with a significant improvement compared to all advanced baselines.
 
 ## Overview
-The overview of NCE-TTS as following picture shows.
-![The overview of UniAudio](fig/fig2-v3.png)
+The overview of NCE-TTS as the following picture shows.
+<img class="pic" src="fig/fig2-v3.png" alt="The overview of NCE-TTS" width="300" height="200">
 In the following, we will show some generated samples by our proposed method. 
 
 <style>
@@ -38,17 +40,17 @@ In the following, we will show some generated samples by our proposed method.
   width: 200px;
 }
 .audio-player2 {
-  width: 150px;
+  width: 180px;
 }
 </style>
 
 ## 1.Speaker Parallel Emotion Transfer on Various Noise Conditions.
 说明
-<style> table th:nth-of-type(3) { width: 22000px; } </style>
+
 
 | <center>  text </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
 | :-----------------------:     |  :------: |  :-----------:     | :------: | :------: |:-------:|:------:|:------:|
-| text   |&emsp; <audio class="audio-player" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Happy , clean</center> <audio class="audio-player" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
+| text   |&emsp; <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Happy , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 
 | <center>  text </center> | <center> Speaker reference </center> |
 |-----|  -----------     |
