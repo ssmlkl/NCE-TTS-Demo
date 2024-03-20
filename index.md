@@ -42,6 +42,9 @@ In the following, we will show some generated samples by our proposed method.
 | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|------|------|
 | text   | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | Emotion:Happy , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 
+| <center>  text </center> | <center> Speaker reference </center> |
+|-----|----|
+|text|Emotion:Happy , clean<audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio>|
 
 ### 2.Speaker Non-Parallel Emotion Transfer on Various Noise Conditions 
 说明
