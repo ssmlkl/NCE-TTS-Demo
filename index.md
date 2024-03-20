@@ -37,7 +37,7 @@ In the following, we will show some generated samples by our proposed method.
 
 ## 1.Speaker Parallel Emotion Transfer on Various Noise Conditions.
 说明
-<style> table th:first-of-type { width: 100px; } </style>
+<style> table th:first-of-type { width: 10000px; } </style>
 
 | <center>  text </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
 | -----------------------     |  ------ |  -----------     | ------ | ------ |-------|------|------|
