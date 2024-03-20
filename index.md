@@ -10,7 +10,7 @@
     width: 900px;
 }
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 9 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 10 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -45,14 +45,14 @@ In the following, we will show some generated samples by our proposed method.
   width: 200px;
 }
 .audio-player2 {
-  width: 180px;
+  width: 150px;
 }
 </style>
 
 ## 1.Speaker Parallel Emotion Transfer on Various Noise Conditions.
 说明
 
-
+< style > table th:nth-of-type(2) { width: 210px; } </ style > 
 | <center>  text </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
 | :-----------------------:     |  :------: |  :-----------:     | :------: | :------: |:-------:|:------:|:------:|
 | The Pop song features harmonizing vocals singing   |&emsp; <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Happy , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
