@@ -38,8 +38,8 @@ In the following, we will show some generated samples by our proposed method.
 ## Speaker Parallel Emotion Transfer on Various Noise Conditions.
 In the following, we first show some case.
 
-| <center>  Content (The transcirption of the target audio) </center> | <center> Speaker reference </center> |<center> Emotion reference </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
-| -----------------------     |  -----------   |  -----------   | ------ | ----- |-------|-------|-------|
+| <center>  text </center> | <center> Speaker reference </center> |<center> Emotion reference </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
+| -----------------------     |  ------ | ------ | ------ | ------ |-------|------|------|
 | text   | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 
 
