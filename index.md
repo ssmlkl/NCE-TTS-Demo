@@ -1,8 +1,8 @@
 <style>
-.container-lg{
-  max_width:2020px;
-  margin-right:auto:
-  margin-left:auto;
+.container-lg {
+  max_width: 2020px;
+  margin-right: auto:
+  margin-left: auto;
 }
 
   
