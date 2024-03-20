@@ -1,11 +1,9 @@
 <style>
 .container-lg {
-  max_width: 2020px;
-  margin-right: auto:
-  margin-left: auto;
+    max-width: 2020px;
+    margin-right: auto;
+    margin-left: auto;
 }
-
-  
 </style>
 # <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint1 </center>
 
