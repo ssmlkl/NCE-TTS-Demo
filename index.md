@@ -1,7 +1,7 @@
 <style>
 .container-lg {
     max-width: 1900px;
-    margin-right: auto;
+    margin-right: auto; 
     margin-left: auto;
 }
 .pic {
