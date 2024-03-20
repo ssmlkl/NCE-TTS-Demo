@@ -10,7 +10,7 @@
     width: 900px;
 }
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 8 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 9 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -58,6 +58,13 @@ In the following, we will show some generated samples by our proposed method.
 | The Pop song features harmonizing vocals singing   |&emsp; <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Happy , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
 |  <td colspan=8>Row 2, Col 2-3 merged</td> |
+
+| Header 1 | Header 2 | Header 3 | Header 4 | Header 5-7 Merged         | Header 8 |
+| -------- | -------- | -------- | -------- | ------------------------- | -------- |
+| Row 1, Col 1-4 | <td colspan=3>Row 1, Col 5-7 merged</td> | Row 1, Col 8 |
+
+
+
 
 | <center>  text </center> | <center> Speaker reference </center> |
 |-----|  -----------     |
