@@ -1,12 +1,13 @@
-# <center> UniAudio: Towards Universal Audio Generation with Large Language Models </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint </center>
 
-<center> Dongchao Yang*<sup>1</sup>, Jinchuan Tian*<sup>2</sup>, Xu Tan <sup>3</sup>, Rongjie Huang <sup>4</sup>, Songxiang Liu, HaoHan Guo<sup>1</sup>,  Xuankai Chang<sup>2</sup>, Jiatong Shi <sup>2</sup>, Sheng Zhao <sup>3</sup>, Jiang Bian <sup>3</sup>, Zhou Zhao <sup>4</sup>, Xixin Wu <sup>1</sup>, Helen Meng<sup>1</sup> </center> 
+<center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
-<center> * Equal Contribution </center>
-<center> 1 Chinese University of Hong Kong </center>
-<center> 2 Carnegie Mellon University</center>
-<center> 3 Microsoft Research Asia</center>
-<center> 4 Zhejiang University</center>
+
+<center> 1 Inner Mongolia University </center>
+<center> 2 Northwestern Polytechnical
+University </center>
+<center> 3 Chinese University of Hong Kong</center>
+
 
 
 ## Introduction
