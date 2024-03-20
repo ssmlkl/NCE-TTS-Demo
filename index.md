@@ -11,14 +11,19 @@ University </center>
 
 
 ## Introduction
-Audio generation is a major branch of generative AI research. Compared with prior works in this area that are commonly task-specific with heavy domain knowledge, this paper advocates building universal audio generation models that can handle various tasks in a unified manner.
-As recent research on large language models (LLMs) has demonstrated their strong ability to handle multiple tasks, this work presents UniAudio, an LLM-based audio generation model that supports a wide range of audio generation tasks.
-Based on various input conditions, such as phoneme, text description, or audio itself, UniAudio can generate speech, sound, music, and singing voice. 
-The proposed UniAudio is built with 100k hours of multi-source open-available audio data and is scaled to 1B parameters. The audio tokenization method and language model architecture are also specifically designed for both performance and efficiency. Experimentally, UniAuido supports 11 audio generation tasks and achieves competitive results on all tasks consistently. We also show that UniAudio can support new tasks seamlessly via simple fine-tuning.
+The cross-speaker emotion transfer (CSEF) in text-to-speech (TTS) synthesis task aims to synthesize speech for a target speaker with the emotion transferred from reference speech recorded by another (source) speaker. 
+Traditional CSEF works adopted speaker-emotion decoupling strategies and achieved remarkable emotion transfer performance.
+However, in scenarios where the reference speech is contaminated with noise, extracting clean emotion features and decoupling the speaker and emotion features becomes challenging, thereby leading to a decrease in the effectiveness of emotion transfer.
+To address the above issues, we propose a novel Noise-robust Cross-Speaker Emotion Transfer TTS model, termed NCE-TTS.
+NCE-TTS integrates the noise-robust emotion information extraction and noise-robust speaker-emotion disentanglement into a unified framework with two new modules, including 1) Knowledge Distillation; and 2) Orthogonal Constraint. 
+The knowledge distillation aims to directly learn the emotion features of clean speech, from noisy speech, with a conditional diffusion model. The orthogonal constraint seeks to disentangle the deep emotion embedding and speaker embedding and further enhance the emotion-discriminative ability.
+Unlike the traditional cascaded approach of first denoising and then extracting features, we have built a new training framework that achieves better emotion transfer results in noisy scenarios.
+We conducted extensive experiments on a multi-speaker English emotional speech dataset ESD.
+The objective and subjective results demonstrate that the proposed NCE-TTS can synthesize emotionally rich speech while preserving the target speaker's voice in various noisy scenarios, with a significant improvement compared to all advanced baselines.
 
 ## Overview
 The overview of UniAudio as following picture shows.
-![The overview of UniAudio](fig/over.png)
+![The overview of UniAudio](fig/fig2-v3.pdf)
 In the following, we will show some generated samples by our proposed method. 
 
 <style>
