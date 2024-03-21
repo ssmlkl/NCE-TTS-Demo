@@ -87,7 +87,7 @@ In the following, we will show some generated samples by our proposed method.
         background-color: blue;
     }
     .table1_2 th:nth-of-type(3) {
-        width: 260px;
+        width: 240px;
     }
     .table1_2 th:nth-of-type(4) {
         width: 210px;
