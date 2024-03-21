@@ -10,7 +10,7 @@
     width: 900px;
 }
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 5 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 6 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -49,7 +49,7 @@ In the following, we will show some generated samples by our proposed method.
 }
 </style>
 
-## 1.Speaker Parallel Emotion Transfer on Various Noise Conditions.
+## 1. Speaker Parallel Emotion Transfer on Various Noise Conditions.
 说明
 
 <style>
@@ -109,7 +109,7 @@ In the following, we will show some generated samples by our proposed method.
 
 
 
-### 2.Speaker Non-Parallel Emotion Transfer on Various Noise Conditions 
+### 2. Speaker Non-Parallel Emotion Transfer on Various Noise Conditions 
 说明
 
 | <center>  text </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
@@ -162,8 +162,16 @@ In the following, we will show some generated samples by our proposed method.
 | The Pop song features harmonizing vocals singing   |&emsp; <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Surprise , 5db-denoisy</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 | The Pop song features harmonizing vocals singing   |&emsp; <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>Emotion:Surprise , 10db-denoisy</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |&emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |
 
+### 3. Visualization Study
+|<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
+| -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<div text-align="center"><img class="pic" src="fig/0.png" alt="The overview of NCE-TTS"></div> |
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<div text-align="center"><img class="pic" src="fig/20.png" alt="The overview of NCE-TTS"></div> |
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<div text-align="center"><img class="pic" src="fig/40.png" alt="The overview of NCE-TTS"></div> |
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<div text-align="center"><img class="pic" src="fig/60.png" alt="The overview of NCE-TTS"></div> |
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<div text-align="center"><img class="pic" src="fig/80.png" alt="The overview of NCE-TTS"></div> |
 
-### 3.Ablation Study
+### 4. Ablation Study
 说明
 
 | <center>  text </center> | <center> Speaker reference </center> |<center> Emotion reference </center> | <center> w/o L<sub>ort</sub> </center>| <center> w/o L<sub>op</sub> </center>| <center> w/o L<sub>kd</sub> </center>|<center> NCE-TTS </center>|
