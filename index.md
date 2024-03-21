@@ -190,14 +190,13 @@ In the following, we will show some generated samples by our proposed method.
 ### 3. Visualization Study
 
 <style>
-    .table3 th:nth-of-type(1) {
-        width: 280px;
-    }
     .table3 th:nth-of-type(2) {
         width: 280px;
+        background-color: red;
     }
     .table3 th:nth-of-type(3) {
         width: 210px;
+        background-color: green;
     }
     .table3 th:nth-of-type(4) {
         width: 280px;
@@ -205,7 +204,7 @@ In the following, we will show some generated samples by our proposed method.
 </style>
 |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
 | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center> Emotion:Angry , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<center>Emotion:Angry , 5dB </center><audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
+| &emsp;<audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | &emsp;<center> Emotion:Angry , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<center>Emotion:Angry , 5dB </center><audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | &emsp;<audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
 | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center> Emotion:Happy , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<center>Emotion:Angry , 5dB </center><audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/20.png" alt="The overview of NCE-TTS">|
 | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  <center>Emotion:Neutral , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<center>Emotion:Angry , 5dB </center><audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/40.png" alt="The overview of NCE-TTS">|
 | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  <center>Emotion:Sad , clean</center> <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<center>Emotion:Angry , 5dB </center><audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/60.png" alt="The overview of NCE-TTS">|
