@@ -18,6 +18,7 @@
     max-width: 1900px;
     margin-right: auto; 
     margin-left: auto;
+}
 .page-header {
     color: #fff;
     text-align: center;
