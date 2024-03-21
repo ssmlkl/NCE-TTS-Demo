@@ -79,7 +79,7 @@ In the following, we will show some generated samples by our proposed method.
 
 <style>
     .table1_2 th:nth-of-type(1) {
-        width: 210px;
+        width: 170px;
         background-color: blue;
     }
     .table1_2 th:nth-of-type(2) {
