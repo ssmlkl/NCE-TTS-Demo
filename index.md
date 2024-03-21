@@ -4,13 +4,18 @@
     margin-right: auto; 
     margin-left: auto;
 }
-.pic {
+.pic_mod {
     display: block;
     margin: 0 auto;
     width: 900px;
 }
+.pic_pitch {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 6 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 7 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -36,7 +41,7 @@ The objective and subjective results demonstrate that the proposed NCE-TTS can s
 ## Overview
 The overview of NCE-TTS as the following picture shows.
 
-<div text-align="center"><img class="pic" src="fig/fig2-v3.png" alt="The overview of NCE-TTS"></div>
+<div text-align="center"><img class="pic_mod" src="fig/fig2-v3.png" alt="The overview of NCE-TTS"></div>
 
 In the following, we will show some generated samples by our proposed method. 
 
@@ -167,11 +172,11 @@ In the following, we will show some generated samples by our proposed method.
 
 |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
 | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic" src="fig/0.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Happy , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic" src="fig/20.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Neutral , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic" src="fig/40.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Sad , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic" src="fig/60.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Surprise , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic" src="fig/80.png" alt="The overview of NCE-TTS">|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Happy , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/20.png" alt="The overview of NCE-TTS">|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Neutral , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/40.png" alt="The overview of NCE-TTS">|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Sad , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/60.png" alt="The overview of NCE-TTS">|
+| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Surprise , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/80.png" alt="The overview of NCE-TTS">|
 
 ### 4. Ablation Study
 说明
