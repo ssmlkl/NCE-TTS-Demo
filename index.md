@@ -15,7 +15,7 @@
     width: 260px;
 }
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 3 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 4 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -182,7 +182,7 @@ In the following, we will show some generated samples by our proposed method.
         width: 280px;
     }
     table th:nth-of-type(3) {
-        width: 2100px;
+        width: 210px;
     }
     table th:nth-of-type(4) {
         width: 280px;
@@ -207,7 +207,7 @@ In the following, we will show some generated samples by our proposed method.
         width: 280px;
     }
     table th:nth-of-type(4) {
-        width: 210px;
+        width: 280px;
     }
 </style>
 | <center>  text </center> | <center> Speaker reference </center> |<center> Emotion reference </center> | <center> w/o L<sub>ort</sub> </center>| <center> w/o L<sub>op</sub> </center>| <center> w/o L<sub>kd</sub> </center>|<center> NCE-TTS </center>|
