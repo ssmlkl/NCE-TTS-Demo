@@ -18,8 +18,21 @@
     max-width: 1900px;
     margin-right: auto; 
     margin-left: auto;
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #efaaff;
+    background-image: linear-gradient(342deg, #ff5d5deb, #3ddbffe3);
+}
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem 
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #2778aa;
+}
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 1 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint  </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
