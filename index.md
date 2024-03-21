@@ -173,6 +173,9 @@ In the following, we will show some generated samples by our proposed method.
     table th:nth-of-type(2) {
         width: 210px;
     }
+    table th:nth-of-type(3) {
+        width: 210px;
+    }
     table th:nth-of-type(4) {
         width: 280px;
     }
