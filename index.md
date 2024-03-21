@@ -12,10 +12,10 @@
 .pic_pitch {
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 260px;
 }
 </style>
-# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 7 </center>
+# <center> NCE-TTS: Noise-robust Cross-Speaker Emotion Transfer TTS through Knowledge Distillation and Orthogonal Constraint 8 </center>
 
 <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
@@ -59,7 +59,7 @@ In the following, we will show some generated samples by our proposed method.
 
 <style>
     table th:nth-of-type(3) {
-        width: 310px;
+        width: 210px;
     }
 </style>
 | <center>  text </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
@@ -169,7 +169,11 @@ In the following, we will show some generated samples by our proposed method.
 
 ### 3. Visualization Study
 
-
+<style>
+    table th:nth-of-type(2) {
+        width: 210px;
+    }
+</style>
 |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
 | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
 | <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  Emotion:Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |Emotion:Angry , 5dB <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> | <audio class="audio-player2" src="zero_shot_tts/gt/tts_237-134493-0000.wav" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
