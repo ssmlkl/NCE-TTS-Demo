@@ -210,17 +210,14 @@ In the following, we will show some generated samples by our proposed method.
 ### 3. Visualization Study
 
 <style>
-/*     .table3 th:nth-of-type(2) {
-        width: 280px;
+    .table3 th:nth-of-type(3) {
+        width: 210px;
         background-color: red;
     }
-    .table3 th:nth-of-type(3) {
+    .table3 th:nth-of-type(5) {
         width: 210px;
         background-color: green;
     }
-    .table3 th:nth-of-type(4) {
-        width: 280px;
-    } */
 </style>
 | <center>  text </center> |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
 | -----------------------  | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
