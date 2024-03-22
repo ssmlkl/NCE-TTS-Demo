@@ -83,7 +83,7 @@ In the following, we will show some generated samples by our proposed method.
     }
     .table1_2 th:nth-of-type(2) {
         width: 210px;
-        background-color: blue;
+/*         background-color: blue; */
     }
     .table1_2 th:nth-of-type(3) {
         width: 240px;
@@ -212,11 +212,11 @@ In the following, we will show some generated samples by our proposed method.
 <style>
     .table3 th:nth-of-type(3) {
         width: 210px;
-        background-color: red;
+/*         background-color: red; */
     }
     .table3 th:nth-of-type(5) {
         width: 210px;
-        background-color: green;
+/*         background-color: green; */
     }
 </style>
 | <center>  text </center> |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
