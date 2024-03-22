@@ -80,7 +80,6 @@ In the following, we will show some generated samples by our proposed method.
 <style>
     .table1_2 th:nth-of-type(1) {
         width: 170px;
-        background-color: blue;
     }
     .table1_2 th:nth-of-type(2) {
         width: 210px;
@@ -211,25 +210,22 @@ In the following, we will show some generated samples by our proposed method.
 ### 3. Visualization Study
 
 <style>
-    .table3 th:nth-of-type(2) {
-        width: 280px;
+    .table3 th:nth-of-type(3) {
+        width: 210px;
         background-color: red;
     }
-    .table3 th:nth-of-type(3) {
+    .table3 th:nth-of-type(5) {
         width: 210px;
         background-color: green;
     }
-    .table3 th:nth-of-type(4) {
-        width: 280px;
-    }
 </style>
-|<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
-| -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
-| &emsp;<audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center>&emsp; Angry , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio></center> | &emsp;<audio class="audio-player2" src="path_of_audio" controls preload></audio> |<center>Angry , 5dB </center><center><audio class="audio-player2" src="path_of_audio" controls preload></audio></center> | &emsp;<audio class="audio-player2" src="path_of_audio" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> | <center> Happy , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<center>Angry , 5dB <audio class="audio-player2" src="path_of_audio" controls preload></audio> </center>| <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<img class="pic_pitch" src="fig/20.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  <center>Neutral , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<center>Angry , 5dB <audio class="audio-player2" src="path_of_audio" controls preload></audio> </center>| <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<img class="pic_pitch" src="fig/40.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  <center>Sad , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<center>Angry , 5dB <audio class="audio-player2" src="path_of_audio" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<img class="pic_pitch" src="fig/60.png" alt="The overview of NCE-TTS">|
-| <audio class="audio-player2" src="zero_shot_tts/ref/tts_237-126133-0024.wav" controls preload></audio> |  <center>Surprise , clean <audio class="audio-player2" src="zero_shot_tts/gen/tts_237-134493-0000.wav" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<center>Angry , 5dB <audio class="audio-player2" src="path_of_audio" controls preload></audio></center> | <audio class="audio-player2" src="path_of_audio" controls preload></audio> |<img class="pic_pitch" src="fig/80.png" alt="The overview of NCE-TTS">|
+| <center>  text </center> |<center> speaker reference </center>|<center> clean emotion reference </center>|<center> Synthesized audio </center>|<center> 5dB emotion reference </center>|<center> Synthesized audio </center>|<center> Pitch curve </center>|
+| -----------------------  | -----------------------     |  ------ | -------------------- | ------ | ------ |-------|
+| <center>I am going to back home.</center>| &emsp;<audio class="audio-player2" src="visualStudy/spk_ref.wav" controls preload></audio> | <center>&emsp; Angry , clean <audio class="audio-player2" src="visualStudy/clean_angry_emo_ref.wav" controls preload></audio></center> | &emsp;<audio class="audio-player2" src="visualStudy/Syn_angry.wav" controls preload></audio> |<center>Angry , 5dB </center><center><audio class="audio-player2" src="visualStudy/5db_angry_emo_ref.wav" controls preload></audio></center> | &emsp;<audio class="audio-player2" src="visualStudy/Syn_angry_5db.wav" controls preload></audio> |<img class="pic_pitch" src="fig/0.png" alt="The overview of NCE-TTS">|
+| <center>I am going to back home.</center>| <audio class="audio-player2" src="visualStudy/spk_ref.wav" controls preload></audio> | <center> Happy , clean <audio class="audio-player2" src="visualStudy/clean_happy_emo_ref.wav" controls preload></audio></center> | <audio class="audio-player2" src="visualStudy/Syn_happy.wav" controls preload></audio> |<center>Happy , 5dB <audio class="audio-player2" src="visualStudy/5db_happy_emo_ref.wav" controls preload></audio> </center>| <audio class="audio-player2" src="visualStudy/Syn_happy_5db.wav" controls preload></audio> |<img class="pic_pitch" src="fig/20.png" alt="The overview of NCE-TTS">|
+| <center>I am going to back home.</center>| <audio class="audio-player2" src="visualStudy/spk_ref.wav" controls preload></audio> |  <center>Neutral , clean <audio class="audio-player2" src="visualStudy/clean_neutral_emo_ref.wav" controls preload></audio></center> | <audio class="audio-player2" src="visualStudy/Syn_neutral.wav" controls preload></audio> |<center>Angry , 5dB <audio class="audio-player2" src="visualStudy/5db_neutral_emo_ref.wav" controls preload></audio> </center>| <audio class="audio-player2" src="visualStudy/Syn_neutral_5db.wav" controls preload></audio> |<img class="pic_pitch" src="fig/40.png" alt="The overview of NCE-TTS">|
+| <center>I am going to back home.</center>| <audio class="audio-player2" src="visualStudy/spk_ref.wav" controls preload></audio> |  <center>Sad , clean <audio class="audio-player2" src="visualStudy/clean_sad_emo_ref.wav" controls preload></audio></center> | <audio class="audio-player2" src="visualStudy/Syn_sad.wav" controls preload></audio> |<center>Sad , 5dB <audio class="audio-player2" src="visualStudy/5db_sad_emo_ref.wav" controls preload></audio> </center>| <audio class="audio-player2" src="visualStudy/Syn_Sad_5db.wav" controls preload></audio> |<img class="pic_pitch" src="fig/60.png" alt="The overview of NCE-TTS">|
+| <center>I am going to back home.</center>| <audio class="audio-player2" src="visualStudy/spk_ref.wav" controls preload></audio> |  <center>Surprise , clean <audio class="audio-player2" src="visualStudy/clean_surprise_emo_ref.wav" controls preload></audio></center> | <audio class="audio-player2" src="visualStudy/Syn_syrprise.wav" controls preload></audio> |<center>Sad , 5dB <audio class="audio-player2" src="visualStudy/5db_surprise_emo_ref.wav" controls preload></audio> </center>| <audio class="audio-player2" src="visualStudy/Syn_surprise_5db.wav" controls preload></audio> |<img class="pic_pitch" src="fig/80.png" alt="The overview of NCE-TTS">|
 {: .table3}
 
 ### 4. Ablation Study
