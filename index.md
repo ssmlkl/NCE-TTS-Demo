@@ -236,7 +236,7 @@ In the following, we will show some generated samples by our proposed method.
         width: 210px;
     }
     .table4 th:nth-of-type(3) {
-        width: 280px;
+        width: 210px;
     }
     .table4 th:nth-of-type(4) {
         width: 210px;
