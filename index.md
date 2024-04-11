@@ -25,14 +25,14 @@
     background-color: #efaaff;
     background-image: linear-gradient(342deg, #ff5d5deb, #3ddbffe3);
 }
-.main-content h1, .main-content h2, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1, .main-content h2, .main-content h3, .main-content h5, .main-content h6 {
     margin-top: 2rem 
     margin-bottom: 1rem;
     font-weight: normal;
     color: #2778aa;
 }
-.main-content h3 {
-    margin-top: 2rem 
+.main-content h4 {
+    margin-top: 1rem 
     margin-bottom: 1rem;
     font-weight: normal;
     color: #606c71;
@@ -40,12 +40,12 @@
 </style>
 
 
-### <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
+#### <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3</sup></center> 
 
 
-### <center> 1 Inner Mongolia University </center>
-### <center> 2 Northwestern Polytechnical University </center>
-### <center> 3 Chinese University of Hong Kong</center>
+#### <center> 1 Inner Mongolia University </center>
+#### <center> 2 Northwestern Polytechnical University </center>
+#### <center> 3 Chinese University of Hong Kong</center>
 
 
 
