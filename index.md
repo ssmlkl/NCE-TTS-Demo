@@ -45,7 +45,9 @@
 
 #### <center> 1 Inner Mongolia University </center>
 #### <center> 2 Northwestern Polytechnical University </center>
-#### <center> 3 Chinese University of Hong Kong</center>
+#### <center> 3 Shenzhen Research Institute of Big Data, School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China </center>
+#### <center> 4 National University of Singapore, Singapore </center>
+
 
 
 
