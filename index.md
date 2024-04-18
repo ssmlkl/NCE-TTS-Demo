@@ -80,6 +80,22 @@ In the following, we will show some generated samples by our proposed method.
 }
 </style>
 
+<style>
+    .table1_2 th:nth-of-type(1) {
+        width: 170px;
+    }
+    .table1_2 th:nth-of-type(2) {
+        width: 210px;
+/*         background-color: blue; */
+    }
+    .table1_2 th:nth-of-type(3) {
+        width: 240px;
+    }
+    .table1_2 th:nth-of-type(4) {
+        width: 210px;
+    }
+</style>
+
 ### 1. Direct comparison of NCE-TTS with baseline model synthesized speech.
 
 We first show a direct comparison of the effects of NCE-TTS and baseline with different emotion types of emotional referenced audio.
@@ -109,21 +125,7 @@ Speaker Reference Content: **I smell the breath of an English.**
 Emotion Reference Content: **Then there was a report.**
 -->
 
-<style>
-    .table1_2 th:nth-of-type(1) {
-        width: 170px;
-    }
-    .table1_2 th:nth-of-type(2) {
-        width: 210px;
-/*         background-color: blue; */
-    }
-    .table1_2 th:nth-of-type(3) {
-        width: 240px;
-    }
-    .table1_2 th:nth-of-type(4) {
-        width: 210px;
-    }
-</style>
+
 | <center>  Content </center> | <center> Speaker reference </center> |<center>     Emotion reference    </center> | <center> GenerSpeech </center>| <center> Daft-Exprt </center>| <center> NoreSpeech </center>|<center> Vall-E </center>|<center> NCE-TTS </center>|
 | :-----------------------:     |  :------: |  :-----------:     | :------: | :------: |:-------:|:------:|:------:|
 | <center>I smell the breath of an English.</center>|<center>&emsp; <audio class="audio-player2" src="parall/spk_ref/10.wav" controls preload></audio></center> |<center>Angry ,clean <audio class="audio-player2" src="parall/emo_ref/10.wav" controls preload></audio></center> |<center>&emsp;<audio class="audio-player2" src="parall/syn/10_generspeech-TTS-clean.wav" controls preload></audio></center>|<center>&emsp;<audio class="audio-player2" src="parall/syn/10_daft-TTS-clean.wav" controls preload></audio></center>|<center>&emsp;<audio class="audio-player2" src="parall/syn/10_norespeech-TTS-clean.wav" controls preload></audio></center>|<center>&emsp;<audio class="audio-player2" src="parall/syn/10_valle-TTS-clean.wav" controls preload></audio></center>|<center>&emsp;<audio class="audio-player2" src="parall/syn/10_NCE-TTS-clean.wav" controls preload></audio></center>|
