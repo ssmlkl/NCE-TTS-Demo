@@ -40,13 +40,14 @@
 </style>
 
 
-#### <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>3，4</sup></center> 
+#### <center> Rui Liu,Member,IEEE<sup>1</sup>, Kailin Liang<sup>1</sup>, Tao Li <sup>2</sup>, Dongchao Yang <sup>3</sup>,Haizhou Li,Fellow,IEEE<sup>4，5</sup></center> 
 
 
 #### <center> 1 Inner Mongolia University </center>
 #### <center> 2 Northwestern Polytechnical University </center>
-#### <center> 3 Shenzhen Research Institute of Big Data, School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China </center>
-#### <center> 4 National University of Singapore, Singapore </center>
+#### <center> 3 The Chinese University of Hong Kong, Hongkong, China.
+#### <center> 4 Shenzhen Research Institute of Big Data, School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), China </center>
+#### <center> 5 National University of Singapore, Singapore </center>
 
 
 
